@@ -12,7 +12,7 @@
                     <!-- Tabs within a box -->
                     <ul class="nav nav-tabs pull-right">
                         <li class="active"><a href="#revenue-chart" data-toggle="tab">Reporte económico</a></li>
-                        <li><a href="#sales-chart" data-toggle="tab">Reporte clientes</a></li>
+                        <li><a href="#sales-chart" data-toggle="tab">Reporte Empleados</a></li>
                         <li class="pull-left header"><i class="fa fa-inbox"></i>Reportes estadísticos</li>
                     </ul>
                     <div class="tab-content no-padding">

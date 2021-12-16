@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ctrlFOOD</title>
+    <title>empresaTopicos</title>
 
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -43,12 +43,12 @@
 <body class="hold-transition login-page">
 <div class="login-box">
     <div class="login-logo">
-        <a href="{{ url('/home') }}">ctrl<b>FOOD</b></a>
+        <a href="{{ url('/home') }}">empresa<b>Topicos</b></a>
     </div>
 
     <!-- /.login-logo -->
     <div class="login-box-body sombra">
-        <p class="login-box-msg">Sistema para la venta de comidas y bebidas <br> v0.9</p>
+        <p class="login-box-msg">Sistema para la venta  <br></p>
 
         <form method="post" action="{{ url('/login') }}">
             {!! csrf_field() !!}
@@ -85,19 +85,9 @@
     </div>
     <!-- /.login-box-body -->
 
-    <div class="row" style="margin-top: 50px">
-        <div class="col-md-12 text-center text-muted">
-            &copy; Saul Mamani M. <br>
-            <a href="https://saulmamani.github.io/" target="_blank">https://saulmamani.github.io/</a>
-        </div>
+    
 
-        <div class="col-md-12 text-center" style="color: #A0A0A0">
-            <br><br>
-            Credenciales de prueba: <br>
-            Email: lidia@yahoo.es &nbsp;&nbsp;&nbsp;&nbsp; Password: 123456
-            <br><br>
-            <a href="https://www.slideshare.net/luas0_1/aplicacin-de-scrum-y-uml-para-el-desarrollo-de-un-sistema-de-ventas" target="_blank">Documentación del sistema</a>
-        </div>
+        
     </div>
 </div>
 <!-- /.login-box -->

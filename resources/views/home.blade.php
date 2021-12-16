@@ -74,12 +74,9 @@
 @section('content')
     <div class="content">
         <div class="full-height">
-            <span class="title">ctrl<strong>FOOD</strong></span>
-            v0.9
-            <hr style="border-bottom: 1px solid #D0D0D0">
-            &copy; Saul Mamani M. <br> <br>
-            luas0_1@yahoo.es <br>
-            <a href="https://saulmamani.github.io/" target="_blank">https://saulmamani.github.io/</a>
+            <span class="title">empresa<strong>Topicos</strong></span>
+            
+            
         </div>
 
     </div>

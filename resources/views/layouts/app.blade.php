@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>ctrlFOOD</title>
+    <title>Empresatopicos</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
 
     <!-- Bootstrap 3.3.7 -->
@@ -42,7 +42,7 @@
 
             <!-- Logo -->
             <a href="{!! url('home') !!}" class="logo">
-                ctrl<strong>FOOD</strong>
+                empresa<strong>Topicos</strong>
             </a>
 
             <!-- Header Navbar -->
@@ -67,8 +67,7 @@
                             <ul class="dropdown-menu">
                                 <!-- The user image in the menu -->
                                 <li class="user-header">
-                                    <img src="{{ asset('images_user/' . Auth::user()->fotografia) }}"
-                                         class="img-circle" alt="User Image"/>
+                                    
                                     <p>
                                         {!! Auth::user()->name !!}
                                         <small>Rol: {!! Auth::user()->rol !!}</small>
@@ -105,7 +104,7 @@
 
         <!-- Main Footer -->
         <footer class="main-footer" style="max-height: 100px;text-align: center">
-            <strong>Copyright © 2020 <a href="https://saulmamani.github.io/">Saul Mamani</a>.</strong> Todos los derechos reservados.
+            
         </footer>
 
     </div>
@@ -125,7 +124,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{!! url('/') !!}">
-                    ctroFood
+                    Empresa topicos
                 </a>
             </div>
 

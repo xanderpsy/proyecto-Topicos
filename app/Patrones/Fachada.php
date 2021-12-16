@@ -33,8 +33,8 @@ class Fachada
     {
         return [
             null => 'Selecciones tipo',
-            'Comida' => 'Comida',
-            'Bebida' => 'Bebida',
+            
+            'Bebida' => 'Tienda'
         ];
     }
 

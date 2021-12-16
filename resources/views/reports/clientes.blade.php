@@ -1,7 +1,7 @@
 <div class="content">
     <div class="row">
         <div class="col-sm-8 col-md-8 col-md-offset-2 col-sm-offset-2">
-            <h4 class="text-center">Top clientes potenciales</h4>
+            <h4 class="text-center">Top Empleados potenciales</h4>
             <hr>
 
             <table class="table table-striped table-bordered">

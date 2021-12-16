@@ -1,12 +1,12 @@
 <!-- Nit Field -->
 <div class="form-group col-sm-12">
-    {!! Form::label('nit', 'Nit: *') !!}
+    {!! Form::label('nit', 'Codigo de barras: *') !!}
     {!! Form::number('nit', null, ['class' => 'form-control', 'required','maxlength' => '15', '@keypress.enter'=>'getClientes($event)', '@blur'=>'getClientes($event)']) !!}
 </div>
 
 <!-- Razon Social Field -->
 <div class="form-group col-sm-12">
-    {!! Form::label('razon_social', 'Razón Social: *') !!}
+    {!! Form::label('razon_social', 'Cliente: *') !!}
     {!! Form::text('razon_social', null, ['class' => 'form-control', 'maxlength' => '50', 'required', 'id'=>'razon_social', 'autocomplete' => 'off']) !!}
 </div>
 

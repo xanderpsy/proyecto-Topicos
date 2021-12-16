@@ -2,8 +2,8 @@
     <table class="table" id="clients-table">
         <thead>
             <tr>
-                <th>Nit</th>
-                <th>Razón Social</th>
+                <th>Id</th>
+                <th>Nombre</th>
                 <th></th>
             </tr>
         </thead>

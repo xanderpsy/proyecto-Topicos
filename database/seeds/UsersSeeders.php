@@ -13,18 +13,18 @@ class UsersSeeders extends Seeder
     {
         DB::table('users')->insert([
             [
-                'email' => 'luas0_1@yahoo.es',
-                'password' => \Hash::make('654321'),
+                'email' => 'alexander@hotmail.com',
+                'password' => \Hash::make('123456'),
                 'rol' => 'Administrador',
-                'name' => 'Saul Mamani M.',
-                'fotografia' => 'foto_base.png',
+                'name' => 'Alexander',
+                'fotografia' => '',
             ],
             [
-                'email' => 'lidia@yahoo.es',
+                'email' => 'vicky@hotmail.com',
                 'password' => \Hash::make('123456'),
                 'rol' => 'Vendedor',
-                'name' => 'Lidia Marce Barrios',
-                'fotografia' => 'foto_base.png',
+                'name' => 'Victoria',
+                'fotografia' => '',
             ],
         ]);
     }

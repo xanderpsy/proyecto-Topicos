@@ -7,7 +7,7 @@
 </li>
 
 <li class="{{ Request::is('clients*') ? 'active' : '' }}">
-    <a href="{!! route('clients.index') !!}"><i class="fa fa-users"></i><span>Clientes</span></a>
+    <a href="{!! route('clients.index') !!}"><i class="fa fa-users"></i><span>Empleados</span></a>
 </li>
 
 @if(\App\Patrones\Permiso::esAdministrador())
@@ -16,6 +16,6 @@
     </li>
 
 <li class="{{ Request::is('reporte*') ? 'active' : '' }}">
-    <a href="{!! url('reporte_estadistico') !!}"><i class="fa fa-file"></i><span>Reportes</span></a>
+
 </li>
 @endif

@@ -36,9 +36,9 @@
         <!-- Fotografia Field -->
             <div class="thumbnail">
                     @if(isset($user) && isset($user->fotografia))
-                        <img id="img_destino" src="{{ asset('/images_user/'.$user->fotografia) }}" alt="foto">
+                        
                     @else
-                        <img id="img_destino" src="{{ asset('/images_user/foto_base.png') }}" alt="foto">
+                        
                     @endif
 
                     <div class="caption text-center">
